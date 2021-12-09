@@ -1,0 +1,1 @@
+var api_cambio_monedas_url = "http://api.devises.zone/v1/quotes/USD/GTQ/json?quantity=20&key=9765|LrwHhbojo9zGDp*O9YBZEV9FhnrJMFCd";

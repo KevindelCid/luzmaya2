@@ -1,0 +1,100 @@
+.centrar {
+    /* background-color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc; */
+    /* IMPORTANTE */
+    text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+    .collapse-menu{
+    display:none;
+    animation: blured 1s forwards;
+    }
+    .collapse-btn{
+        display: contents;
+    }
+    .collapse-btnc{
+        display: none;
+    }
+    }
+    @media screen and (min-width: 600px) {
+        .collapse-menu{
+        display:contents;
+        }
+        .collapse-btn{
+            display: none;
+        }
+        .collapse-btnc{
+            display: block;
+        }
+        }
+        .fondo{
+
+            /* background-image: url('../fondos/walijab.png');
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            color: #ffffff;
+ 
+             */
+        }
+    
+.novisible {
+
+    display: none ;
+    
+    }
+                
+        
+#novisible {
+
+    display: none ;
+    
+    }
+                
+
+
+    .photo {
+       
+        
+      
+      }
+      /* Contenedor de la imagen */
+      .photo-container {
+  
+        filter: blur(5px);
+        transition: all .45s ease;
+    
+      }
+      /* Banner de la imagen */
+      .photo .photo-banner {
+          width: 100%;
+        left: 54%;
+        transition: all .45s ease;
+        position:  absolute;
+        top: 35px;
+        transform: translateX(-50%);
+      }
+      /* Cuando se haga hover sobre el contenedor */
+      .photo:hover > .photo-container {
+        filter: blur(0);
+      }
+      .photo:hover > .photo-banner {
+        opacity: 0.5;
+      }
+
+      .texto-encima{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .cente{
+
+        position: absolute;
+        top: 50%;
+        left: 37%;
+        transform: translate(-50%, -50%);
+
+    }
